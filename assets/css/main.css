@@ -1,0 +1,48 @@
+body {
+    background-color: #34495e;
+}
+
+.title {
+    color: #fff;
+    font-weight: bold;
+}
+
+.title ~ p{
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.formlabel {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+
+.formlabel span {
+    font-weight: bold;
+    padding-left: 6px;
+}
+
+.material-icons {
+    display: inline-flex;
+    vertical-align: sub;
+}
+
+textarea {
+    min-height: 350px!important;
+}
+
+footer p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+footer a {
+    color: #E7355F;
+    font-weight: bold;
+}
