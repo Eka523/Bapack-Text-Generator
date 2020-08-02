@@ -59,7 +59,6 @@ $('.crot').click(function() {
         }
         if ($('input.xixi').is(':checked')) {
             let v = $('select.xixi').val();
-            console.log(v);
             if (v == '1') {
                 outp += ' xixixi';
             } else if (v == '2') {
